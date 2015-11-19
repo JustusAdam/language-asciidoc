@@ -1,14 +1,22 @@
 {
 	"name": "Asciidoc",
-	"description": "Asciidoc language support (with Asciidoctor flavor).",
 	"version": "0.0.1",
 	"publisher": "amoiseev",
+	"description": "Asciidoc language support (with Asciidoctor flavor).",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/antonmoiseev/vscode-asciidoc.git"
+	},
 	"engines": {
-		"vscode": "^0.10.1"
+		"vscode": "0.10.x"
 	},
 	"categories": [
 		"Languages"
 	],
+	"galleryBanner": {
+		"color": "#136E9E",
+		"theme": "light"
+	},
 	"contributes": {
 		"languages": [{
 			"id": "asciidoc",
