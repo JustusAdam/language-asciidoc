@@ -16,7 +16,7 @@
 	],
 	"galleryBanner": {
 		"color": "#136E9E",
-		"theme": "light"
+		"theme": "dark"
 	},
 	"contributes": {
 		"languages": [{
