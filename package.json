@@ -1,6 +1,6 @@
 {
 	"name": "Asciidoc",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "amoiseev",
 	"description": "Asciidoc language support (with Asciidoctor flavor).",
 	"icon": "images/asciidoctor.png",
