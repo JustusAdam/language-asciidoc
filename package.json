@@ -1,0 +1,39 @@
+{
+	"name": "language-asciidoc",
+    "displayName": "AsciiDoc Support",
+	"description": "Markup support for asciidoc files.",
+	"version": "0.0.2",
+	"publisher": "justusadam",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages"
+	],
+    "galleryBanner": {
+        "color": "#136e9e",
+        "theme": "dark"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/JustusAdam/language-asciidoc",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JustusAdam/language-asciidoc.git"
+    },
+    "bugs": {
+        "url": "https://github.com/JustusAdam/language-asciidoc/issues"
+    },
+	"contributes": {
+		"languages": [{
+			"id": "asciidoc",
+			"aliases": ["AsciiDoc", "asciidoc"],
+			"extensions": [".ad",".asc",".adoc",".asciidoc"],
+			"configuration": "./asciidoc.configuration.json"
+		}],
+		"grammars": [{
+			"language": "asciidoc",
+			"scopeName": "source.asciidoc",
+			"path": "./syntaxes/asciidoc.tmLanguage"
+		}]
+	}
+}
