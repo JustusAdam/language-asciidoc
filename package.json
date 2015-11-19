@@ -1,0 +1,25 @@
+{
+	"name": "Asciidoc",
+	"description": "Asciidoc language support (with Asciidoctor flavor).",
+	"version": "0.0.1",
+	"publisher": "amoiseev",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "asciidoc",
+			"aliases": ["Asciidoc[tor]", "asciidoc"],
+			"extensions": [".adoc",".ad",".asciidoc"],
+			"configuration": "./asciidoc.configuration.json"
+		}],
+		"grammars": [{
+			"language": "asciidoc",
+			"scopeName": "text.asciidoc",
+			"path": "./syntaxes/asciidoc.tmLanguage"
+		}]
+	}
+}
