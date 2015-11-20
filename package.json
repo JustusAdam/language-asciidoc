@@ -1,9 +1,10 @@
 {
 	"name": "language-asciidoc",
     "displayName": "AsciiDoc Support",
-	"description": "Markup support for asciidoc files.",
-	"version": "0.0.2",
+	"description": "Markup support for AsciDoc(tor) documents",
+	"version": "1.0.0",
 	"publisher": "justusadam",
+    "icon": "images/logo.png",
 	"engines": {
 		"vscode": "^0.10.1"
 	},
