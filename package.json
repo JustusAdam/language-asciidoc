@@ -19,16 +19,20 @@
 		"theme": "dark"
 	},
 	"contributes": {
-		"languages": [{
-			"id": "asciidoc",
-			"aliases": ["Asciidoc[tor]", "asciidoc"],
-			"extensions": [".adoc",".ad",".asciidoc"],
-			"configuration": "./asciidoc.configuration.json"
-		}],
-		"grammars": [{
-			"language": "asciidoc",
-			"scopeName": "text.asciidoc",
-			"path": "./syntaxes/asciidoc.tmLanguage"
-		}]
+		"languages": [
+			{
+				"id": "asciidoc",
+				"aliases": ["Asciidoc[tor]", "asciidoc"],
+				"extensions": [".adoc",".ad",".asciidoc"],
+				"configuration": "./asciidoc.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "asciidoc",
+				"scopeName": "text.asciidoc",
+				"path": "./syntaxes/asciidoc.json"
+			}
+		]
 	}
 }
