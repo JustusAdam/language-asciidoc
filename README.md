@@ -8,4 +8,4 @@ This package is generated from the [atom-language-asciidoc](https://github.com/a
 
 ## Bugs
 
-Please report any bugs to the [issue section](https://github.com/JustusAdam/language-haskell/issues) of the [repository](https://github.com/JustusAdam/language-haskell).
+Please report any bugs to the [issue section](https://github.com/JustusAdam/language-asciidoc/issues) of the [repository](https://github.com/JustusAdam/language-asciidoc).
