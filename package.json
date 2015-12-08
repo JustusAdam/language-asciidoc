@@ -2,7 +2,7 @@
 	"name": "language-asciidoc",
   "displayName": "Asciidoc",
 	"description": "Markup support for AsciDoc(tor) documents",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"publisher": "justusadam",
     "icon": "images/logo.png",
 	"engines": {
