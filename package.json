@@ -37,7 +37,7 @@
 			{
 				"language": "asciidoc",
 				"scopeName": "text.asciidoc",
-				"path": "./syntaxes/asciidoc.json"
+				"path": "./syntaxes/asciidoc.tmLanguage"
 			}
 		]
 	}
