@@ -1,44 +1,52 @@
 {
-	"name": "language-asciidoc",
+  "name": "language-asciidoc",
   "displayName": "Asciidoc",
-	"description": "Markup support for AsciDoc(tor) documents",
-	"version": "1.3.0",
-	"publisher": "justusadam",
-    "icon": "images/logo.png",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Languages"
-	],
+  "description": "Markup support for AsciDoc(tor) documents",
+  "version": "1.3.2-SNAPSHOT",
+  "publisher": "justusadam",
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "categories": [
+    "Languages"
+  ],
   "galleryBanner": {
-      "color": "#136e9e",
-      "theme": "dark"
+    "color": "#136e9e",
+    "theme": "dark"
   },
   "license": "MIT",
   "homepage": "https://github.com/JustusAdam/language-asciidoc",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/JustusAdam/language-asciidoc.git"
+    "type": "git",
+    "url": "https://github.com/JustusAdam/language-asciidoc.git"
   },
   "bugs": {
-      "url": "https://github.com/JustusAdam/language-asciidoc/issues"
+    "url": "https://github.com/JustusAdam/language-asciidoc/issues"
   },
-	"contributes": {
-		"languages": [
-			{
-				"id": "asciidoc",
-				"aliases": ["Asciidoc[tor]", "asciidoc"],
-				"extensions": [".adoc",".ad",".asciidoc", ".asc"],
-				"configuration": "./asciidoc.configuration.json"
-			}
-		],
-		"grammars": [
-			{
-				"language": "asciidoc",
-				"scopeName": "text.asciidoc",
-				"path": "./syntaxes/asciidoc.tmLanguage"
-			}
-		]
-	}
+  "contributes": {
+    "languages": [
+      {
+        "id": "asciidoc",
+        "aliases": [
+          "Asciidoc[tor]",
+          "asciidoc"
+        ],
+        "extensions": [
+          ".adoc",
+          ".ad",
+          ".asciidoc",
+          ".asc"
+        ],
+        "configuration": "./asciidoc.configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "asciidoc",
+        "scopeName": "text.asciidoc",
+        "path": "./syntaxes/asciidoc.tmLanguage"
+      }
+    ]
+  }
 }
