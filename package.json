@@ -1,8 +1,8 @@
 {
   "name": "language-asciidoc",
-  "displayName": "Asciidoc",
+  "displayName": "[Deprecated] Asciidoc",
   "description": "Markup support for AsciDoc(tor) documents",
-  "version": "1.3.2-SNAPSHOT",
+  "version": "1.3.2",
   "publisher": "justusadam",
   "icon": "images/logo.png",
   "engines": {
